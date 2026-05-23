@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# Memory / generated files
+memory.json
+
+# Notes
+notes/
+
+# Jupyter
+.ipynb_checkpoints/
