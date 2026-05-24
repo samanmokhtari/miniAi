@@ -1,11 +1,29 @@
-from learner import learn_topic
+from learner import learn_topic, ask_question
 
-print("Mini AI")
-print("====================")
 
-topic = input("What should I learn?")
+print("🤖 MINI AI")
+print("========================")
 
-result = learn_topic(topic)
+while True:
 
-print("\n📚 Learned Summary:\n")
-print(result)
+    print("\n1. Learn Topic")
+    print("2. Ask Question")
+    print("3. Exit")
+
+    choice = input("> ")
+
+    if choice == "1":
+
+        topic = input("🧠 Topic: ")
+
+        print("\n" + learn_topic(topic))
+
+    elif choice == "2":
+
+        q = input("❓ Question: ")
+
+        print("\n🤖 Answer:\n")
+        print(ask_question(q))
+
+    elif choice == "3":
+        break
