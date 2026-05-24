@@ -1,4 +1,6 @@
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.x-blue.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
 
 # 🤖 Mini AI
 
