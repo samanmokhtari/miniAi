@@ -7,6 +7,7 @@
 A lightweight AI-inspired learning assistant built with Python.  
 This project can search Wikipedia, learn about a topic, summarize information, and store knowledge locally using memory.
 
+
 ---
 
 ## ✨ Features
